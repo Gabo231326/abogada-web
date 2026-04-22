@@ -228,7 +228,7 @@ export default function Home() {
             <input type="text" name="nombre" placeholder="Nombre completo" required className="w-full border p-4 rounded-xl" />
             <input type="tel" name="telefono" placeholder="Teléfono" required className="w-full border p-4 rounded-xl" />
             <input type="email" name="email" placeholder="Correo electrónico" required className="w-full border p-4 rounded-xl" />
-            <textarea name="mensaje" placeholder="Cuéntanos brevemente tu caso" rows="5" required className="w-full border p-4 rounded-xl" />
+            <textarea name="mensaje" placeholder="Cuéntanos brevemente tu caso" rows={5} required className="w-full border p-4 rounded-xl" />
 
             <button className="w-full bg-slate-950 text-white py-4 rounded-xl font-bold hover:bg-slate-800 transition">
               Enviar Consulta
